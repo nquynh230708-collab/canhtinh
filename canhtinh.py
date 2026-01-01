@@ -9,7 +9,7 @@ st.markdown("""
     .main { background-color: #0e1117; color: white; }
     .stMetric { background-color: #1c1f26; padding: 15px; border-radius: 10px; border: 1px solid #ff4b4b; }
     </style>
-    """, unsafe_content_html=True)
+    """, unsafe_allow_html=True)
 
 st.title("🚨 HỆ THỐNG MÔ PHỎNG TÀI CHÍNH: LÔ ĐỀ VS ĐẦU TƯ")
 st.write("Dành cho Giáo dục Kỹ năng sống - Chuyên đề: Bản chất của xác suất")
@@ -77,4 +77,5 @@ with col2:
 
 st.divider()
 st.subheader("💡 Bài học rút ra:")
+
 st.warning("**Toán học chứng minh rằng cờ bạc không phải là may mắn, nó là một cuộc chơi chống lại quy luật xác suất mà bạn chắc chắn sẽ thất bại.**")
